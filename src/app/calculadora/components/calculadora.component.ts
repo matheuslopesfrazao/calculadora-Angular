@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CalculadoraService } from '../services/calculadora.service';
 
 @Component({
-  selector: 'app-calculadora',
+  selector: 'app-calculadora', /* Essa será a tag para chamar este componente */
   templateUrl: './calculadora.component.html',
   styleUrls: ['./calculadora.component.css']
 })
